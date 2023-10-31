@@ -1,4 +1,4 @@
-# Lists
+"""Lists"""
 # A list stores a series of items in a particular order.
 # Lists allow you to store sets of information in one
 # place, whether you have just a few items or millions
@@ -16,13 +16,13 @@
 users = ['val', 'bob', 'mia', 'ron', 'ned']
 
 # Getting the first element
-first_user = users[0]
+FIRST_USER = users[0]
 
 # Getting the second element
-second_user = users[1]
+SECOND_USER = users[1]
 
 # Getting the last element
-newest_user = users[-1]
+NEWEST_USER = users[-1]
 
 # ---------------------    Modifying    ---------------------
 
@@ -56,14 +56,14 @@ most_recent_user = users.pop()
 print(most_recent_user)
 
 # Pop the first item in a list
-first_user = users.pop(0)
-print(first_user)
+FIRST_USER = users.pop(0)
+print(FIRST_USER)
 
 # ---------------------    Length    ---------------------
 
 # Find the length of a list
-num_users = len(users)
-print("We have " + str(num_users) + " users.")
+NUM_USERS = len(users)
+print("We have " + str(NUM_USERS) + " users.")
 
 # ---------------------    Sorting    ---------------------
 
