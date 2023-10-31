@@ -3,7 +3,7 @@
 
 Usage:
 
-   python3 words.py <URL>
+   python3 words.small_examples <URL>
 """
 
 import sys
